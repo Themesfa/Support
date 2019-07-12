@@ -1,10 +1,9 @@
 # Support [![Packagist License][badge_license]](LICENSE.md) [![For Laravel 5][badge_laravel]][link-github-repo]
 
-[![Github Issues][badge_issues]][link-github-issues]
-
 [![Packagist][badge_package]][link-packagist]
 [![Packagist Release][badge_release]][link-packagist]
 [![Packagist Downloads][badge_downloads]][link-packagist]
+[![Github Issues][badge_issues]][link-github-issues]
 
 Support package is a collection of helpers and tools for Themesfa + Laravel projects.
 
@@ -25,11 +24,10 @@ If you discover any security related issues, please email info@themesfa.net inst
 
 [badge_license]:   http://img.shields.io/packagist/l/themesfa/support.svg?style=flat-square
 [badge_laravel]:   https://img.shields.io/badge/Laravel-5.1%20to%205.8-orange.svg?style=flat-square
-
-[badge_issues]:    https://img.shields.io/github/issues/Themesfa/Support.svg?style=flat-square
 [badge_package]:   https://img.shields.io/badge/package-themesfa/support-blue.svg?style=flat-square
 [badge_release]:   https://img.shields.io/packagist/v/themesfa/support.svg?style=flat-square
 [badge_downloads]: https://img.shields.io/packagist/dt/themesfa/support.svg?style=flat-square
+[badge_issues]:    https://img.shields.io/github/issues/Themesfa/Support.svg?style=flat-square
 
 [link-author]:        https://github.com/Themesfa
 [link-github-repo]:   https://github.com/Themesfa/Support
