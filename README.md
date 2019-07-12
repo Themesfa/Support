@@ -1,9 +1,5 @@
 # Support [![Packagist License][badge_license]](LICENSE.md) [![For Laravel 5][badge_laravel]][link-github-repo]
 
-[![Travis Status][badge_build]][link-travis]
-[![Coverage Status][badge_coverage]][link-scrutinizer]
-[![Scrutinizer Code Quality][badge_quality]][link-scrutinizer]
-[![SensioLabs Insight][badge_insight]][link-insight]
 [![Github Issues][badge_issues]][link-github-issues]
 
 [![Packagist][badge_package]][link-packagist]
@@ -29,10 +25,7 @@ If you discover any security related issues, please email info@themesfa.net inst
 
 [badge_license]:   http://img.shields.io/packagist/l/themesfa/support.svg?style=flat-square
 [badge_laravel]:   https://img.shields.io/badge/Laravel-5.1%20to%205.8-orange.svg?style=flat-square
-[badge_build]:     http://img.shields.io/travis/Themesfa/Support.svg?style=flat-square
-[badge_coverage]:  https://img.shields.io/scrutinizer/coverage/g/Themesfa/Support.svg?style=flat-square
-[badge_quality]:   https://img.shields.io/scrutinizer/g/Themesfa/Support.svg?style=flat-square
-[badge_insight]:   https://img.shields.io/sensiolabs/i/de0353dd-df17-4656-b9c0-1eea95aa30a2.svg?style=flat-square
+
 [badge_issues]:    https://img.shields.io/github/issues/Themesfa/Support.svg?style=flat-square
 [badge_package]:   https://img.shields.io/badge/package-themesfa/support-blue.svg?style=flat-square
 [badge_release]:   https://img.shields.io/packagist/v/themesfa/support.svg?style=flat-square
