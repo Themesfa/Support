@@ -27,22 +27,22 @@ If you discover any security related issues, please email info@themesfa.net inst
 - [Themesfa][link-author]
 - [All Contributors][link-contributors]
 
-[badge_license]:   http://img.shields.io/packagist/l/arcanedev/support.svg?style=flat-square
+[badge_license]:   http://img.shields.io/packagist/l/themesfa/support.svg?style=flat-square
 [badge_laravel]:   https://img.shields.io/badge/Laravel-5.1%20to%205.8-orange.svg?style=flat-square
 [badge_build]:     http://img.shields.io/travis/Themesfa/Support.svg?style=flat-square
 [badge_coverage]:  https://img.shields.io/scrutinizer/coverage/g/Themesfa/Support.svg?style=flat-square
 [badge_quality]:   https://img.shields.io/scrutinizer/g/Themesfa/Support.svg?style=flat-square
 [badge_insight]:   https://img.shields.io/sensiolabs/i/de0353dd-df17-4656-b9c0-1eea95aa30a2.svg?style=flat-square
 [badge_issues]:    https://img.shields.io/github/issues/Themesfa/Support.svg?style=flat-square
-[badge_package]:   https://img.shields.io/badge/package-arcanedev/support-blue.svg?style=flat-square
-[badge_release]:   https://img.shields.io/packagist/v/arcanedev/support.svg?style=flat-square
-[badge_downloads]: https://img.shields.io/packagist/dt/arcanedev/support.svg?style=flat-square
+[badge_package]:   https://img.shields.io/badge/package-themesfa/support-blue.svg?style=flat-square
+[badge_release]:   https://img.shields.io/packagist/v/themesfa/support.svg?style=flat-square
+[badge_downloads]: https://img.shields.io/packagist/dt/themesfa/support.svg?style=flat-square
 
 [link-author]:        https://github.com/Themesfa
 [link-github-repo]:   https://github.com/Themesfa/Support
 [link-github-issues]: https://github.com/Themesfa/Support/issues
 [link-contributors]:  https://github.com/Themesfa/Support/graphs/contributors
-[link-packagist]:     https://packagist.org/packages/arcanedev/support
+[link-packagist]:     https://packagist.org/packages/themesfa/support
 [link-travis]:        https://travis-ci.org/Themesfa/Support
 [link-scrutinizer]:   https://scrutinizer-ci.com/g/Themesfa/Support/?branch=master
 [link-insight]:       https://insight.sensiolabs.com/projects/de0353dd-df17-4656-b9c0-1eea95aa30a2
