@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Http;
+<?php namespace Themesfa\Support\Http;
 
 use Illuminate\Foundation\Http\FormRequest as BaseFormRequest;
 
 /**
  * Class     FormRequest
  *
- * @package  Arcanedev\Support
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class FormRequest extends BaseFormRequest
 {

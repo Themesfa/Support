@@ -1,10 +1,10 @@
-<?php namespace Arcanedev\Support\Traits;
+<?php namespace Themesfa\Support\Traits;
 
 /**
  * Trait     Abortable
  *
- * @package  Arcanedev\Support\Traits
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Traits
+ * @author   Themesfa <info@themesfa.net>
  *
  * @deprecated Use directly the abort() helper function instead.
  */

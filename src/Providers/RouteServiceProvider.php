@@ -1,19 +1,19 @@
-<?php namespace Arcanedev\Support\Providers;
+<?php namespace Themesfa\Support\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
 /**
  * Class     RouteServiceProvider
  *
- * @package  Arcanedev\Support\Laravel\Providers
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel\Providers
+ * @author   Themesfa <info@themesfa.net>
  *
- * @method  \Arcanedev\Support\Routing\RouteRegistrar  as(string $name)
- * @method  \Arcanedev\Support\Routing\RouteRegistrar  domain(string $domain)
- * @method  \Arcanedev\Support\Routing\RouteRegistrar  middleware(array|string $middleware)
- * @method  \Arcanedev\Support\Routing\RouteRegistrar  name(string $name)
- * @method  \Arcanedev\Support\Routing\RouteRegistrar  namespace(string $namespace)
- * @method  \Arcanedev\Support\Routing\RouteRegistrar  prefix(string $prefix)
+ * @method  \Themesfa\Support\Routing\RouteRegistrar  as(string $name)
+ * @method  \Themesfa\Support\Routing\RouteRegistrar  domain(string $domain)
+ * @method  \Themesfa\Support\Routing\RouteRegistrar  middleware(array|string $middleware)
+ * @method  \Themesfa\Support\Routing\RouteRegistrar  name(string $name)
+ * @method  \Themesfa\Support\Routing\RouteRegistrar  namespace(string $namespace)
+ * @method  \Themesfa\Support\Routing\RouteRegistrar  prefix(string $prefix)
  * @method  void                                       group(...$mixed)
  *
  * @method  \Illuminate\Routing\Route  get(string $uri, \Closure|array|string|null $action = null)

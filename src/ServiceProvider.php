@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support;
+<?php namespace Themesfa\Support;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Foundation\AliasLoader;
@@ -7,8 +7,8 @@ use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 /**
  * Class     ServiceProvider
  *
- * @package  Arcanedev\Support\Laravel
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class ServiceProvider extends IlluminateServiceProvider
 {

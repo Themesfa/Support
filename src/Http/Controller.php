@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Http;
+<?php namespace Themesfa\Support\Http;
 
-use Arcanedev\Support\Traits\Abortable;
+use Themesfa\Support\Traits\Abortable;
 use Illuminate\Routing\Controller as IlluminateController;
 
 /**
  * Class     Controller
  *
- * @package  Arcanedev\Support\Http
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Http
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Controller extends IlluminateController
 {

@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Tests\Http;
+<?php namespace Themesfa\Support\Tests\Http;
 
-use Arcanedev\Support\Http\FormRequest;
-use Arcanedev\Support\Tests\TestCase;
+use Themesfa\Support\Http\FormRequest;
+use Themesfa\Support\Tests\TestCase;
 
 /**
  * Class     FormRequestTest
  *
- * @package  Arcanedev\Support\Tests\Http
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Http
+ * @author   Themesfa <info@themesfa.net>
  */
 class FormRequestTest extends TestCase
 {
@@ -23,15 +23,15 @@ class FormRequestTest extends TestCase
         $response->assertStatus(302);
 
         $response = $this->post('form-request', [
-            'name'  => 'ARCANEDEV',
-            'email' => 'arcanedev@example.com',
+            'name'  => 'Themesfa',
+            'email' => 'themesfa@example.com',
         ]);
 
         $response->assertSuccessful();
 
         $response->assertJson([
-            'name'  => 'ARCANEDEV',
-            'email' => 'arcanedev@example.com',
+            'name'  => 'Themesfa',
+            'email' => 'themesfa@example.com',
         ]);
     }
 
@@ -39,14 +39,14 @@ class FormRequestTest extends TestCase
     public function it_can_sanitize()
     {
         $response = $this->post('form-request', [
-            'name'  => 'Arcanedev',
-            'email' => ' ARCANEDEV@example.COM ',
+            'name'  => 'Themesfa',
+            'email' => ' Themesfa@example.COM ',
         ]);
 
         $response->assertSuccessful();
         $response->assertJson([
-            'name'  => 'ARCANEDEV',
-            'email' => 'arcanedev@example.com',
+            'name'  => 'Themesfa',
+            'email' => 'themesfa@example.com',
         ]);
     }
 }

@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Bases;
+<?php namespace Themesfa\Support\Bases;
 
-use Arcanedev\Support\Exceptions\MissingPolicyException;
+use Themesfa\Support\Exceptions\MissingPolicyException;
 use Illuminate\Support\Str;
 
 /**
  * Class     Policy
  *
- * @package  Arcanedev\Support\Bases
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Bases
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Policy
 {

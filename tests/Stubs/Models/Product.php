@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Tests\Stubs\Models;
+<?php namespace Themesfa\Support\Tests\Stubs\Models;
 
-use Arcanedev\Support\Database\Model;
+use Themesfa\Support\Database\Model;
 
 /**
  * Class     Product
  *
- * @package  Arcanedev\Support\Tests\Stubs\Models
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Stubs\Models
+ * @author   Themesfa <info@themesfa.net>
  */
 class Product extends Model
 {

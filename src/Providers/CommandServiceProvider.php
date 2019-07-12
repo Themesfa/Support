@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Providers;
+<?php namespace Themesfa\Support\Providers;
 
-use Arcanedev\Support\ServiceProvider;
+use Themesfa\Support\ServiceProvider;
 
 /**
  * Class     CommandServiceProvider
  *
- * @package  Arcanedev\Support\Providers
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Providers
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class CommandServiceProvider extends ServiceProvider
 {

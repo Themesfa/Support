@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Tests;
+<?php namespace Themesfa\Support\Tests;
 
 use Illuminate\Routing\Router;
 use Orchestra\Testbench\TestCase as BaseTestCase;
@@ -6,8 +6,8 @@ use Orchestra\Testbench\TestCase as BaseTestCase;
 /**
  * Class     TestCase
  *
- * @package  Arcanedev\Support\Tests
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class TestCase extends BaseTestCase
 {
@@ -59,7 +59,7 @@ abstract class TestCase extends BaseTestCase
 
         $router->group([
             'prefix'    => 'dummy',
-            'namespace' => 'Arcanedev\\Support\\Tests\\Stubs',
+            'namespace' => 'Themesfa\\Support\\Tests\\Stubs',
         ], function (Router $router) {
             $router->get('/', [
                 'as'    => 'dummy::index',
@@ -72,12 +72,12 @@ abstract class TestCase extends BaseTestCase
             ]);
         });
 
-        $router->aliasMiddleware('json', \Arcanedev\Support\Middleware\VerifyJsonRequest::class);
+        $router->aliasMiddleware('json', \Themesfa\Support\Middleware\VerifyJsonRequest::class);
 
         $router->group(['as' => 'middleware::'], function(Router $router) {
             $router->post('form-request', [
                 'as'   => 'form-request',
-                'uses' => 'Arcanedev\Support\Tests\Stubs\FormRequestController@form'
+                'uses' => 'Themesfa\Support\Tests\Stubs\FormRequestController@form'
             ]);
 
             $router->group(['prefix' => 'json', 'as' => 'json.'], function (Router $router) {

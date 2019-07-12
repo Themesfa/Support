@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Providers;
+<?php namespace Themesfa\Support\Providers;
 
-use Arcanedev\Support\ServiceProvider;
+use Themesfa\Support\ServiceProvider;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 
 /**
  * Class     ViewComposerServiceProvider
  *
- * @package  Arcanedev\Support\Providers
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Providers
+ * @author   Themesfa <info@themesfa.net>
  */
 class ViewComposerServiceProvider extends ServiceProvider
 {

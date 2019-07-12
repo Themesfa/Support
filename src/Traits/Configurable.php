@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Traits;
+<?php namespace Themesfa\Support\Traits;
 
 use Illuminate\Support\Arr;
 
 /**
  * Class     Configurable
  *
- * @package  Arcanedev\Support\Traits
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Traits
+ * @author   Themesfa <info@themesfa.net>
  */
 trait Configurable
 {

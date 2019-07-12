@@ -1,14 +1,14 @@
-<?php namespace Arcanedev\Support\Tests\Providers;
+<?php namespace Themesfa\Support\Tests\Providers;
 
-use Arcanedev\Support\Tests\Stubs\InvalidPackageServiceProvider;
-use Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider;
-use Arcanedev\Support\Tests\TestCase;
+use Themesfa\Support\Tests\Stubs\InvalidPackageServiceProvider;
+use Themesfa\Support\Tests\Stubs\TestPackageServiceProvider;
+use Themesfa\Support\Tests\TestCase;
 
 /**
  * Class     PackageServiceProviderTest
  *
- * @package  Arcanedev\Support\Tests\Providers
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Providers
+ * @author   Themesfa <info@themesfa.net>
  */
 class PackageServiceProviderTest extends TestCase
 {
@@ -17,7 +17,7 @@ class PackageServiceProviderTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider */
+    /** @var  \Themesfa\Support\Tests\Stubs\TestPackageServiceProvider */
     private $provider;
 
     /* -----------------------------------------------------------------
@@ -51,9 +51,9 @@ class PackageServiceProviderTest extends TestCase
     {
         $expectations = [
             \Illuminate\Support\ServiceProvider::class,
-            \Arcanedev\Support\ServiceProvider::class,
-            \Arcanedev\Support\PackageServiceProvider::class,
-            \Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider::class,
+            \Themesfa\Support\ServiceProvider::class,
+            \Themesfa\Support\PackageServiceProvider::class,
+            \Themesfa\Support\Tests\Stubs\TestPackageServiceProvider::class,
         ];
 
         foreach ($expectations as $expected) {
@@ -73,7 +73,7 @@ class PackageServiceProviderTest extends TestCase
     /** @test */
     public function it_must_throw_a_package_exception()
     {
-        $this->expectException(\Arcanedev\Support\Exceptions\PackageException::class);
+        $this->expectException(\Themesfa\Support\Exceptions\PackageException::class);
         $this->expectExceptionMessage('You must specify the vendor/package name.');
 
         (new InvalidPackageServiceProvider($this->app))->register();

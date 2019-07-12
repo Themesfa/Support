@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Providers;
+<?php namespace Themesfa\Support\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider;
 use Illuminate\Support\Facades\Gate;
@@ -6,8 +6,8 @@ use Illuminate\Support\Facades\Gate;
 /**
  * Class     AuthorizationServiceProvider
  *
- * @package  Arcanedev\Support\Providers
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Providers
+ * @author   Themesfa <info@themesfa.net>
  */
 class AuthorizationServiceProvider extends AuthServiceProvider
 {

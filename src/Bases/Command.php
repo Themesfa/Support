@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Bases;
+<?php namespace Themesfa\Support\Bases;
 
 use Illuminate\Console\Command as IlluminateCommand;
 use Symfony\Component\Console\Helper\TableSeparator;
@@ -6,8 +6,8 @@ use Symfony\Component\Console\Helper\TableSeparator;
 /**
  * Class     Command
  *
- * @package  Arcanedev\Support\Laravel\Bases
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel\Bases
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Command extends IlluminateCommand
 {

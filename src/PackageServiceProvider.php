@@ -1,6 +1,6 @@
-<?php namespace Arcanedev\Support;
+<?php namespace Themesfa\Support;
 
-use Arcanedev\Support\Exceptions\PackageException;
+use Themesfa\Support\Exceptions\PackageException;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Str;
 use ReflectionClass;
@@ -8,8 +8,8 @@ use ReflectionClass;
 /**
  * Class     PackageServiceProvider
  *
- * @package  Arcanedev\Support\Laravel
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class PackageServiceProvider extends ServiceProvider
 {
@@ -23,7 +23,7 @@ abstract class PackageServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $vendor = 'arcanedev';
+    protected $vendor = 'themesfa';
 
     /**
      * Package name.
@@ -361,7 +361,7 @@ abstract class PackageServiceProvider extends ServiceProvider
     /**
      * Check package name.
      *
-     * @throws \Arcanedev\Support\Exceptions\PackageException
+     * @throws \Themesfa\Support\Exceptions\PackageException
      */
     private function checkPackageName()
     {

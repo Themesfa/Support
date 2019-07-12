@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Tests\Database;
+<?php namespace Themesfa\Support\Tests\Database;
 
-use Arcanedev\Support\Tests\TestCase;
+use Themesfa\Support\Tests\TestCase;
 
 /**
  * Class     ModelTest
  *
- * @package  Arcanedev\Support\Tests\Bases
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Bases
+ * @author   Themesfa <info@themesfa.net>
  */
 class ModelTest extends TestCase
 {
@@ -15,7 +15,7 @@ class ModelTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Database\Model */
+    /** @var  \Themesfa\Support\Database\Model */
     protected $model;
 
     /* -----------------------------------------------------------------
@@ -27,7 +27,7 @@ class ModelTest extends TestCase
     {
         parent::setUp();
 
-        $this->model = new \Arcanedev\Support\Tests\Stubs\Models\Product;
+        $this->model = new \Themesfa\Support\Tests\Stubs\Models\Product;
     }
 
     public function tearDown(): void
@@ -47,7 +47,7 @@ class ModelTest extends TestCase
     {
         $expectations = [
             \Illuminate\Database\Eloquent\Model::class,
-            \Arcanedev\Support\Database\Model::class,
+            \Themesfa\Support\Database\Model::class,
         ];
 
         foreach ($expectations as $expected) {

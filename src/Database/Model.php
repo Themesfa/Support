@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Database;
+<?php namespace Themesfa\Support\Database;
 
-use Arcanedev\Support\Traits\PrefixedModel;
+use Themesfa\Support\Traits\PrefixedModel;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 /**
  * Class     Model
  *
- * @package  Arcanedev\Support\Laravel
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Model extends Eloquent
 {

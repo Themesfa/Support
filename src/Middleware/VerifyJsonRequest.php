@@ -1,14 +1,14 @@
-<?php namespace Arcanedev\Support\Middleware;
+<?php namespace Themesfa\Support\Middleware;
 
-use Arcanedev\Support\Http\Middleware;
+use Themesfa\Support\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
 /**
  * Class     VerifyJsonRequest
  *
- * @package  Arcanedev\Support\Middleware
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Middleware
+ * @author   Themesfa <info@themesfa.net>
  */
 class VerifyJsonRequest extends Middleware
 {

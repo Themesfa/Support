@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Tests\Middleware;
+<?php namespace Themesfa\Support\Tests\Middleware;
 
-use Arcanedev\Support\Tests\TestCase;
+use Themesfa\Support\Tests\TestCase;
 
 /**
  * Class     VerifyJsonRequestTest
  *
- * @package  Arcanedev\Support\Tests\Middleware
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Middleware
+ * @author   Themesfa <info@themesfa.net>
  */
 class VerifyJsonRequestTest extends TestCase
 {

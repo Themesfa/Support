@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Traits;
+<?php namespace Themesfa\Support\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -7,8 +7,8 @@ use Illuminate\Support\Collection;
 /**
  * Trait     Paginatable
  *
- * @package  Arcanedev\Support\Traits
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Traits
+ * @author   Themesfa <info@themesfa.net>
  */
 trait Paginatable
 {

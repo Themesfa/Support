@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Tests\Stubs;
+<?php namespace Themesfa\Support\Tests\Stubs;
 
-use Arcanedev\Support\PackageServiceProvider;
+use Themesfa\Support\PackageServiceProvider;
 
 /**
  * Class     TestPackageServiceProvider
  *
- * @package  Arcanedev\Support\Tests\Stubs
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Stubs
+ * @author   Themesfa <info@themesfa.net>
  */
 class TestPackageServiceProvider extends PackageServiceProvider
 {

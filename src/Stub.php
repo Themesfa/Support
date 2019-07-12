@@ -1,10 +1,10 @@
-<?php namespace Arcanedev\Support;
+<?php namespace Themesfa\Support;
 
 /**
  * Class     Stub
  *
- * @package  Arcanedev\Support
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support
+ * @author   Themesfa <info@themesfa.net>
  */
 class Stub
 {

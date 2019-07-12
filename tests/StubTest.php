@@ -1,12 +1,12 @@
-<?php namespace Arcanedev\Support\Tests;
+<?php namespace Themesfa\Support\Tests;
 
-use Arcanedev\Support\Stub;
+use Themesfa\Support\Stub;
 
 /**
  * Class     StubTest
  *
- * @package  Arcanedev\Support\Tests
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests
+ * @author   Themesfa <info@themesfa.net>
  */
 class StubTest extends TestCase
 {
@@ -15,7 +15,7 @@ class StubTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Stub */
+    /** @var  \Themesfa\Support\Stub */
     private $stub;
 
     /* -----------------------------------------------------------------
@@ -49,7 +49,7 @@ class StubTest extends TestCase
             $file = $this->getFixturesPath('stubs/composer.stub')
         );
 
-        static::assertInstanceOf(\Arcanedev\Support\Stub::class, $this->stub);
+        static::assertInstanceOf(\Themesfa\Support\Stub::class, $this->stub);
 
         $fileContent = file_get_contents($file);
 
@@ -67,11 +67,11 @@ class StubTest extends TestCase
         $this->stub = Stub::create('composer.stub');
 
         $this->stub->replaces([
-            'VENDOR'            => 'arcanedev',
+            'VENDOR'            => 'themesfa',
             'PACKAGE'           => 'package',
-            'AUTHOR_NAME'       => 'ARCANEDEV',
-            'AUTHOR_EMAIL'      => 'arcanedev.maroc@gmail.com',
-            'MODULE_NAMESPACE'  => studly_case('arcanedev'),
+            'AUTHOR_NAME'       => 'Themesfa',
+            'AUTHOR_EMAIL'      => 'info@themesfa.net',
+            'MODULE_NAMESPACE'  => studly_case('themesfa'),
             'STUDLY_NAME'       => studly_case('package'),
         ]);
 

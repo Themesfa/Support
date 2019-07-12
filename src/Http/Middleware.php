@@ -1,10 +1,10 @@
-<?php namespace Arcanedev\Support\Http;
+<?php namespace Themesfa\Support\Http;
 
 /**
  * Class     Middleware
  *
- * @package  Arcanedev\Support\Laravel
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Middleware
 {

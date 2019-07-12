@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Providers;
+<?php namespace Themesfa\Support\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\ServiceProvider;
@@ -6,8 +6,8 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class     EventServiceProvider
  *
- * @package  Arcanedev\Support\Laravel\Providers
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Laravel\Providers
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class EventServiceProvider extends ServiceProvider
 {

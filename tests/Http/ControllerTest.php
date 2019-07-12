@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Tests\Http;
+<?php namespace Themesfa\Support\Tests\Http;
 
-use Arcanedev\Support\Tests\TestCase;
+use Themesfa\Support\Tests\TestCase;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /**
  * Class     ControllerTest
  *
- * @package  Arcanedev\Support\Tests\Http
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Http
+ * @author   Themesfa <info@themesfa.net>
  */
 class ControllerTest extends TestCase
 {

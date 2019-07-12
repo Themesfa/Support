@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Database;
+<?php namespace Themesfa\Support\Database;
 
 use Closure;
 use Illuminate\Database\Migrations\Migration as IlluminateMigration;
@@ -6,8 +6,8 @@ use Illuminate\Database\Migrations\Migration as IlluminateMigration;
 /**
  * Class     Migration
  *
- * @package  Arcanedev\Support\Bases
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Bases
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Migration extends IlluminateMigration
 {

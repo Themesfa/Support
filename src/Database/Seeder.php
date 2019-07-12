@@ -1,4 +1,4 @@
-<?php namespace Arcanedev\Support\Database;
+<?php namespace Themesfa\Support\Database;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Seeder as IlluminateSeeder;
@@ -6,8 +6,8 @@ use Illuminate\Database\Seeder as IlluminateSeeder;
 /**
  * Class     Seeder
  *
- * @package  Arcanedev\Support\Bases
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Bases
+ * @author   Themesfa <info@themesfa.net>
  */
 abstract class Seeder extends IlluminateSeeder
 {

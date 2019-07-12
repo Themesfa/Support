@@ -1,13 +1,13 @@
-<?php namespace Arcanedev\Support\Tests\Stubs;
+<?php namespace Themesfa\Support\Tests\Stubs;
 
-use Arcanedev\Support\Http\Controller;
-use Arcanedev\Support\Http\FormRequest;
+use Themesfa\Support\Http\Controller;
+use Themesfa\Support\Http\FormRequest;
 
 /**
  * Class     FormRequestController
  *
- * @package  Arcanedev\Support\Tests\Stubs
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Tests\Stubs
+ * @author   Themesfa <info@themesfa.net>
  */
 class FormRequestController extends Controller
 {

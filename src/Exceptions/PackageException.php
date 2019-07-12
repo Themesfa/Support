@@ -1,9 +1,9 @@
-<?php namespace Arcanedev\Support\Exceptions;
+<?php namespace Themesfa\Support\Exceptions;
 
 /**
  * Class     PackageException
  *
- * @package  Arcanedev\Support\Exceptions
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @package  Themesfa\Support\Exceptions
+ * @author   Themesfa <info@themesfa.net>
  */
 class PackageException extends \Exception {}
