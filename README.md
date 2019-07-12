@@ -34,6 +34,3 @@ If you discover any security related issues, please email info@themesfa.net inst
 [link-github-issues]: https://github.com/Themesfa/Support/issues
 [link-contributors]:  https://github.com/Themesfa/Support/graphs/contributors
 [link-packagist]:     https://packagist.org/packages/themesfa/support
-[link-travis]:        https://travis-ci.org/Themesfa/Support
-[link-scrutinizer]:   https://scrutinizer-ci.com/g/Themesfa/Support/?branch=master
-[link-insight]:       https://insight.sensiolabs.com/projects/de0353dd-df17-4656-b9c0-1eea95aa30a2
