@@ -38,7 +38,7 @@ If you discover any security related issues, please email info@themesfa.net inst
 [badge_release]:   https://img.shields.io/packagist/v/arcanedev/support.svg?style=flat-square
 [badge_downloads]: https://img.shields.io/packagist/dt/arcanedev/support.svg?style=flat-square
 
-[link-author]:        https://github.com/arcanedev-maroc
+[link-author]:        https://github.com/Themesfa
 [link-github-repo]:   https://github.com/Themesfa/Support
 [link-github-issues]: https://github.com/Themesfa/Support/issues
 [link-contributors]:  https://github.com/Themesfa/Support/graphs/contributors
